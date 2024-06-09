@@ -1,0 +1,39 @@
+#text {
+    width: 800px;
+    height: 60px;
+    border: 2px solid;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#select_theme{
+    width: 800px;
+    height: 770px;
+    border: 2px solid;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#youtube{
+    width: 500px;
+    height: 100px;
+    border: 2px solid;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+}
+
+#youtube:hover{
+    transform: scale(1.1);
+}
+
+#youtube a {
+    text-decoration: none;
+    color: black;
+}
