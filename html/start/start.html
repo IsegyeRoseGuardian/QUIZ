@@ -1,22 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/start/start.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../../css/start/start.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.jpg">
+    <title>RU QUIZ</title>
 </head>
+
 <body>
     <div id="back">
-        <a href="/index.html">뒤로가기</a>
+        <a href="../../quiz.html">뒤로가기</a>
     </div>
     <div id="text">
         ※주제를 선택해주세요※
     </div>
     <div id="select_theme">
         <div id="youtube">
-            <a href="">YOUTUBE</a>
+            <a href="../../html/quiz/youtube_quiz.html" id="youtube_link">YOUTUBE</a>
+        </div>
+        <div id="profile">
+            <a href="../../html/quiz/profile_quiz.html" id="profile_link">PROFILE</a>
+        </div>
+        <div id="tmi">
+            <a href="../../html/quiz/tmi_quiz.html" id="tmi_link">TMI</a>
         </div>
     </div>
+
+    <audio id="youtube_sound" src="../../audio/앙.mp3"></audio>
+    <audio id="profile_sound" src="../../audio/앙.mp3"></audio>
+    <audio id="tmi_sound" src="../../audio/앙.mp3"></audio>
+
+    <script src="../../js/start/start.js"></script>
 </body>
+
 </html>

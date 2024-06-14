@@ -1,17 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+body{
+    background-color: aqua;
+}
+
 #back {
     width: 150px;
-    border: 2px solid;
+    border: 7px solid;
     margin-left: 20px;
-    font-size: 30px;
     position: absolute;
     border-radius: 20px;
     text-align: center;
 }
 
-#back a{
+#back a {
+    font-family: "Jua", sans-serif;
     text-decoration: none;
     color: black;
     transition: all 0.2s linear;
+    font-size: 40px;
+    color: royalblue;
+    -webkit-text-stroke: 1.5px black;
+
 }
 
 #back:hover {
@@ -21,25 +31,30 @@
 #text {
     width: 800px;
     height: 60px;
-    border: 2px solid;
+    border: 10px solid black;
     margin: auto;
     margin-top: 30px;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
+    font-family: "Jua", sans-serif;
+    color: royalblue;
+    -webkit-text-stroke: 2px black;
+    border-radius: 20px;
 }
 
-#select_theme{
+#select_theme {
     width: 800px;
     height: 770px;
-    border: 2px solid;
+    border: 10px solid;
     margin: auto;
     margin-top: 20px;
+    border-radius: 20px;
 }
 
-#youtube{
+#youtube {
     width: 500px;
     height: 100px;
-    border: 2px solid;
+    border: 10px solid;
     margin: auto;
     margin-top: 30px;
     font-size: 100px;
@@ -49,11 +64,61 @@
     transition: all 0.2s linear;
 }
 
-#youtube:hover{
+#youtube:hover {
     transform: scale(1.1);
 }
 
 #youtube a {
+    font-family: "Jua", sans-serif;
     text-decoration: none;
-    color: black;
+    color: royalblue;
+    -webkit-text-stroke: 7px black;
+}
+
+#profile {
+    width: 500px;
+    height: 100px;
+    border: 10px solid;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+}
+
+#profile:hover {
+    transform: scale(1.1);
+}
+
+#profile a {
+    font-family: "Jua", sans-serif;
+    text-decoration: none;
+    color: royalblue;
+    -webkit-text-stroke: 7px black;
+}
+
+#tmi {
+    width: 500px;
+    height: 100px;
+    border: 10px solid;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+}
+
+#tmi:hover {
+    transform: scale(1.1);
+}
+
+#tmi a {
+    font-family: "Jua", sans-serif;
+    text-decoration: none;
+    color: royalblue;
+    -webkit-text-stroke: 7px black;
 }

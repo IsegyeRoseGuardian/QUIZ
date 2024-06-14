@@ -1,43 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
 body{
-    background-color: royalblue;
+    background-color: aqua;
 }
 
 #main_title1 {
+    font-family: "Jua", sans-serif;
     width: 600px;
     height: 200px;
-    background-color: aqua;
     margin-top: 40px;
     margin-left: 550px;
     text-align: center;
-    font-size: 150px;
+    font-size: 240px;
+    color: royalblue;
+    -webkit-text-stroke: 10px black;
+    text-shadow: 10px 1px black;
 }
 
 #main_title2 {
+    font-family: "Jua", sans-serif;
     width: 600px;
     height: 200px;
-    background-color: aqua;
     margin: auto;
     margin-right: 550px;
     text-align: center;
-    font-size: 150px;
+    font-size: 300px;
+    color: royalblue;
+    -webkit-text-stroke: 10px black;
+    text-shadow: 10px 1px black;
 }
 
 #game_start{
     width: 400px;
     height: 120px;
     margin: auto;
-    margin-top: 100px;
-    background-color: pink;
+    margin-top: 250px;
     text-align: center;
-    font-size: 80px;
+    font-size: 100px;
+    border: 12px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s linear;
+}
+
+#game_start:hover {
+    transform: scale(1.1);
+}
+
+#game_start a {
+    text-decoration: none;
+    color: royalblue;
+    font-family: "Jua", sans-serif;
+    -webkit-text-stroke: 7px black;
 }
 
 #game_method{
+    font-family: "Jua", sans-serif;
     width: 400px;
     height: 120px;
     margin: auto;
     margin-top: 60px;
-    background-color: pink;
     text-align: center;
-    font-size: 80px;
+    font-size: 100px;
+    border: 12px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s linear;
+}
+
+#game_method:hover {
+    transform: scale(1.1);
+}
+
+#game_method a {
+    text-decoration: none;
+    color: royalblue;
+    font-family: "Jua", sans-serif;
+    -webkit-text-stroke: 7px black;
 }
